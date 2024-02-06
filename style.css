@@ -1,7 +1,17 @@
+/* definindo as características do body */
 body {
+    /* transformando em um flex container */
     display: flex;
+
+    /* alinhando o conteúdo no centro em relação ao eixo horizontal */
     justify-content: center;
+
+    /* alinhando o conteúdo no centro em relação ao eixo vertical */
     align-items: center;
+
+    /* altura do que está sendo estilizado; vh = viewport height, ou seja, 100vh quer dizer 100% da altura da tela */
     height: 100vh;
+
+    /* sem margens *margem (espaçamento de fora do conteúdo) ≠ padding(preenchimento)* */
     margin: 0;
 }

@@ -18,7 +18,7 @@ var config = {
     }
 };
 
-// criando uma váriavel game e guardando nela um "novo jogo phaser"
+// criando uma variável game e guardando nela um "novo jogo phaser"
 var game = new Phaser.Game(config);
 
 // criando variável para guardar o peixinho e usá-lo diretamente (linhas 45)
